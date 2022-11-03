@@ -1,0 +1,70 @@
+/*==FONT IMPORT==*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/*==GENERAL STYLIZATION==*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*==BODY==*/
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(243, 243, 243);
+}
+/*==CONTAINER==*/
+.container{
+    position: relative;
+    background: url(../images/bg.png);
+    filter: saturate(150%);
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/*==CARD TOP==*/
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 48px;
+    margin-right: 10px;
+}
+h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+header .chip{
+    width: 60px;
+}
+
+/*==CARD DETAILS==*/
+h6{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+}
+h5 .number{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+h5 .name{
+    margin-top: 20px;
+}
+.container .card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+}
